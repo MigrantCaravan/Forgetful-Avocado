@@ -1,0 +1,30 @@
+@import-normalize;
+@import "recipe-list.css";
+@import "font.css";
+@import "./buttons.css";
+@import "./recipe.css";
+@import "./ingredient-list.css";
+@import "recipe-edit.css";
+
+*,
+*::before,
+*::after {
+  font-family: Gotham Rounded, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: #cee5d0;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+html {
+  font-size: 25px;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
